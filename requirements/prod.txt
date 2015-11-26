@@ -1,7 +1,6 @@
 # Everything needed in production
 
-setuptools==18.5
-wheel==0.26.0
+setuptools
 
 # Flask
 Flask==0.10.1
@@ -30,6 +29,7 @@ cssmin>=0.2.0
 jsmin>=2.0.11
 
 # Auth
+cryptography
 Flask-Login==0.3.2
 Flask-Bcrypt==0.7.1
 
